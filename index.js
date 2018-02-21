@@ -109,6 +109,7 @@ bot.on('message',(message)=>{
 		message.reply("yeas")
 	}
 	//test
+	//test commit 2
 })
 
 
