@@ -17,7 +17,7 @@ var total = (ancient+leg+frag+pots+artp+essence+foi+art+is+uw);
 
 var rng= [];
 var i = 0;
-client.on('message',(message)=>{
+bot.on('message',(message)=>{
 	if(message.content == '!duo'){
 		//message.reply('Hola'); reply to someone message
 		message.channel.send('Hola');
@@ -117,5 +117,5 @@ client.on('message',(message)=>{
 
 
 
-client.login(process.env.BOT_TOKEN); //bot login duh
+bot.login(process.env.BOT_TOKEN); //bot login duh
 
