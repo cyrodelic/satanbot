@@ -105,6 +105,8 @@ bot.on('message',(message)=>{
 		}
 	}else if(message.content=='!hue') {
 		message.reply("hueuheuheu")
+	}else if(message.content=='!botalive?') {
+		message.reply("yeas")
 	}
 	//test
 })
