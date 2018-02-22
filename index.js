@@ -92,7 +92,7 @@ bot.on('message',(message)=>{
 	}else if(message.content == '!flail'){
 		message.channel.send("namedropper :ballot_box_with_check:\nHUEG burden :ballot_box_with_check: \n4 star gears :ballot_box_with_check: \nkeeps changing nickname :ballot_box_with_check: \nMust be Flaialaialail");
 	}else if(message.content == '!neo'){
-		message.channel.send("Wooing Sena :ballot_box_with_check:\nRich boye :ballot_box_with_check:\nRaising disappointment because cute :ballot_box_with_check:\nWants all the cute grills :ballot_box_with_check:\nChanging IGN depending on mood :ballot_box_with_check:\nWeeb room :ballot_box_with_check:\nSamurais :ballot_box_with_check: \nO MEGHAAA weebs :ballot_box_with_check: \nBuying figurines w/o looking at price :ballot_box_with_check: \nMUST BE NEO");
+		message.channel.send("Wooing Sena :ballot_box_with_check:\nRich boye :ballot_box_with_check:\nRaising disappointment because cute :ballot_box_with_check:\nWants all the cute grills :ballot_box_with_check:\nChanging IGN depending on mood :ballot_box_with_check:\nWeeb room :ballot_box_with_check:\nSamurais :ballot_box_with_check: \nO MEGHAAA weebs :ballot_box_with_check: \nBuying figurines w/o looking at price :ballot_box_with_check:\nMHW all day :ballot_box_with_check: \nOne piece addict :ballot_box_with_check: \nMUST BE NEO");
 	}else if(message.content == '!moru'){
 		message.channel.send("Never sleeps :ballot_box_with_check:\nShut in n33t :ballot_box_with_check:\n8,000 hours of dota :ballot_box_with_check:\nFockin weeb :ballot_box_with_check:\n Betraying people :ballot_box_with_check: \nHuge M :ballot_box_with_check: \nBiased :ballot_box_with_check: \n MUST BE MORU");
 	}else if(message.content == '!kagami'){
