@@ -1,2 +1,3 @@
 # satanbot
-roll bot
+roll Discord bot
+for 10+1 pull in King's Raid game
