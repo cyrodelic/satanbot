@@ -3,6 +3,7 @@ const bot = new Discord.Client();
 
 console.log('Bot Running');
 
+var neoxsena=[sena, rides, neo];
 var rng= [];
 var i = 0;
 bot.on('message',(message)=>{
@@ -103,6 +104,10 @@ bot.on('message',(message)=>{
 		message.channel.send("League all day :ballot_box_with_check: \nStays inside :ballot_box_with_check: \nSmol wrists :ballot_box_with_check: \nLikes to be dominated :ballot_box_with_check: \nDangerous :ballot_box_with_check: \nMakes YouTube videos :ballot_box_with_check: \nLit af :ballot_box_with_check: \nKekekek :ballot_box_with_check: \nMeta whore :ballot_box_with_check: \nCan control ppl :ballot_box_with_check: \nLike thicc :ballot_box_with_check: \nLikes lewd dominant women :ballot_box_with_check: \nCooks SPAGHETT :ballot_box_with_check: \nSpends money on cardboards :ballot_box_with_check:\nDed inside :ballot_box_with_check: \nReady to fite :ballot_box_with_check:\nToxic af :ballot_box_with_check: \nSavage :ballot_box_with_check: \nMUST BE KEKGAMI");
 	}else if(message.content == '!help'){
 		message.channel.send("Say ``!pull`` for a disappointment\n``!gm`` for gm facts\n``!sena`` for sena facts\n``!cyro`` for cyro facts\n``!flail`` for flail facts\n``!neo`` for neo facts\n``!moru`` for moru facts\n``!kagami`` for kagami facts");
+	}else if(message.content == '!senaxneo'){
+		for (i = 0; i < senaxneo.length; i++) { 
+    message.channel.send += "":ballot_box_with_check:" + senaxneo[i]" ;
+}
 	}else if(message.content == '!satan'){
 		message.reply("Hi dipshit");
 	}else if (message.content =='!testfor'){
