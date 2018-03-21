@@ -60,7 +60,7 @@ bot.on('message',(message)=>{
 					rng.push(" 10 Essence");
 				}else if(x>=606 && x<630){
 					rng.push(" Artifact Fragments");
-				}else if(x>=630 && x<){
+				}else if(x>=630 && x<702){
 					rng.push(" Empty Deluxe Flasks");
 				}else if(x>=702 && x<762){
 					rng.push(" Fragments of Infinity");
