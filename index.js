@@ -3,18 +3,6 @@ const bot = new Discord.Client();
 
 console.log('Bot Running');
 
-var essence = 6;
-var foi = 6;
-var art = 3;
-var is = 3;
-var uw = 3;
-var ancient= parseFloat(Math.round(18.91).toFixed(1));
-var leg =parseFloat(Math.round(42.09).toFixed(1));
-var frag = parseFloat((Math.round(8.4*2)/2).toFixed(1));
-var pots = parseFloat(Math.round(7.2).toFixed(1));	
-var artp = parseFloat((Math.round(2.4*2)/2).toFixed(1));
-var total = (ancient+leg+frag+pots+artp+essence+foi+art+is+uw);
-
 var rng= [];
 var i = 0;
 bot.on('message',(message)=>{
@@ -26,52 +14,68 @@ bot.on('message',(message)=>{
 		for(i=0;i<=10;i++){
 			x= Math.floor(Math.random()*1000)+1;
 			if(i<10){
-				if(x<93){
+				if(x<63){
 					rng.push(" T6 Ancient");
-				}else if(x>=93 && x<121){
+				}else if(x>=63 && x<81){
 					rng.push(" T6 Legendary");
-				}else if(x>=121 && x<621){
+				}else if(x>=81 && x<568){
 					rng.push(" T7 Ancient");
-				}else if(x>=621 && x<771) {
+				}else if(x>=568 && x<718) {
 					rng.push(" T7 Legendary");
-				}else if(x>=771 && x<827){
-					rng.push(" Fragments");
-				}else if(x>=827 && x<867){
-					rng.push(" Essence");
-				}else if(x>=867 && x<915){
-					rng.push(" Empty Deluxe Flasks");
-				}else if(x>=915 && x<931){
+				}else if(x>=718 && x<758){
+					rng.push(" 100 Fragments");
+				}else if(x>=758 && x<774){
+					rng.push(" 200 Fragments");
+				}else if(x>=774 && x<814){
+					rng.push(" 10 Essence");
+				}else if(x>=814 && x<830){
 					rng.push(" Artifact Fragments");
-				}else if(x>=931 && x<971){
+				}else if(x>=830 && x<878){
+					rng.push(" Empty Deluxe Flasks");
+				}else if(x>=878 && x<918){
 					rng.push(" Fragments of Infinity");
-				}else if(x>=971 && x<981){
-					rng.push(" **Artifact**");
-				}else if(x>=981 && x<991){
-					rng.push(" **Stone of Infinity**");
+				}else if(x>=918 && x<928){
+					rng.push("** ( ͡° ͜ʖ ͡°)Artifact( ͡° ͜ʖ ͡°)**");
+				}else if(x>=928 && x<938){
+					rng.push("** ★Stone of Infinity★**");
+				}else if(x>=938 && x<948){
+					rng.push("** <>Unique Weapon<>**");
+				}else if(x>=948 && x<978){
+					rng.push(" ** -Class Unique Weapon-**");
+				}else if(x>=978 && x<991){
+					rng.push("** Common Treasure**");
 				}else{
-					rng.push(" **Unique Weapon**");
+					rng.push("*** Unique Treasure***");
 				}
 			}else{
-				if(x<191){
+				if(x<124){
 					rng.push(" T7 Ancient");
-				}else if(x>=191 && x<611) {
+				}else if(x>=124 && x<462) {
 					rng.push(" T7 Legendary");
-				}else if(x>=611 && x<696){
-					rng.push(" Fragments");
-				}else if(x>=696 && x<756){
-					rng.push(" Essence");
-				}else if(x>=756 && x<826){
-					rng.push(" Empty Deluxe Flasks");
-				}else if(x>=826 && x<851){
+				}else if(x>=462 && x<522){
+					rng.push(" 100 Fragments");
+				}else if(x>=522 && x<546){
+					rng.push(" 200 Fragments");
+				}else if(x>=546 && x<606){
+					rng.push(" 10 Essence");
+				}else if(x>=606 && x<630){
 					rng.push(" Artifact Fragments");
-				}else if(x>=851 && x<911){
+				}else if(x>=630 && x<){
+					rng.push(" Empty Deluxe Flasks");
+				}else if(x>=702 && x<762){
 					rng.push(" Fragments of Infinity");
-				}else if(x>=911 && x<941){
-					rng.push(" **Artifact**");
-				}else if(x>=941 && x<970){
-					rng.push(" **Stone of Infinity**");
+				}else if(x>=762 && x<792){
+					rng.push("** ( ͡° ͜ʖ ͡°)Artifact( ͡° ͜ʖ ͡°)**");
+				}else if(x>=792 && x<822){
+					rng.push("** ★Stone of Infinity★**");
+				}else if(x>=822 && x<852){
+					rng.push("** <>Unique Weapon<>**");
+				}else if(x>=852 && x<942){
+					rng.push(" ** -Class Unique Weapon-**");
+				}else if(x>=942 && x<971){
+					rng.push("** Common Treasure**");
 				}else{
-					rng.push(" **Unique Weapon**");
+					rng.push("*** Unique Treasure***");
 				}
 			}
 		}
